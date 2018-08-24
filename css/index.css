@@ -6,7 +6,7 @@
 .banner{
     width: 1226px;
     height: 460px;
-    background: black;
+    /*background: black;*/
     margin: 0 auto;
     position: relative;
     overflow: hidden;
@@ -80,7 +80,13 @@
     bottom: 0;
     z-index: 100;
 }
-.round-frame{
+.Round-frame ul{
+
+    width: 90px;
+    height: 60px;
+}
+
+.Round-frame ul li{
     border-radius: 50%;
     float: left;
     width: 6px;
@@ -91,15 +97,15 @@
     margin-top: 25px;
 
 }
-.round-frame:hover{
+.Round-frame ul li:hover{
     background: #fff;
 }
-.Round-frame div:first-child{
+.Round-frame ul .hot{
     background: #fff;
 
 }
 
-.Round-frame div:last-child{
+.Round-frame ul li:last-child{
     margin-right: 0;
     /*background: #ffffff;*/
 }
